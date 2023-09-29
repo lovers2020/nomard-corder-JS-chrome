@@ -17,7 +17,7 @@ const quotes = [
   },
   {
     quote:
-      "CI don't think of the past. The only thing that matters is the everlasting present.",
+      "I don't think of the past. The only thing that matters is the everlasting present.",
     author: "William Somerset Maugham",
   },
 ];
