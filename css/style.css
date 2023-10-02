@@ -1,11 +1,12 @@
 * {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 .hidden {
   display: none;
 }
-html, body { 
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -17,19 +18,41 @@ body {
   justify-content: center;
   align-items: center;
 }
-.bgImage { 
+.bgImage {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   z-index: -1;
 }
-#clock {
+#clock,
+#greeting,
+#weather,
+#quote {
   font-size: 40px;
   color: white;
+}
+::marker {
+  color: white;
+}
+#todo-list span {
+  color: white;
+  margin-right: 1rem;
 }
 #weather span,
 #quote span {
   font-size: 24px;
   font-weight: 500;
-} 
+}
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#todo-form input[type="text"] {
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
